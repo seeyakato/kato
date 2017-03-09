@@ -21,10 +21,6 @@
 
     $ $EDITOR README.md
 
-`settings.json` を新しいプロジェクトに合わせて編集します。
-
-    $ $EDITOR settings.json
-
 コミットします。
 
     $ git commit -m "デザイン課題" 

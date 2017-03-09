@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 1000px){
+body {
+width: 1000px;
+margin-right:auto;
+margin-left:auto;
+}
+}
+
+@media screen and (min-width: 1000px){
+		
+img{
+	width: 1000px;
+	height: 350px;
+}
+	
+	h2 img{
+	vertical-align:middle;
+	border: 0;
+	margin-right: 7px;
+	margin-left: -5px;
+	width: 20px;
+	height: 8px;
+}
+}
+
+
+h2 img{
+	vertical-align:middle;
+	border: 0;
+	margin-right: 7px;
+	margin-left: -4px;
+	width: 20px;
+	height: 9px;
+}
+
+h3{
+	background-color:#f6f3f0;
+	border-bottom:solid 2px #f17602;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 17px;
+}
+
+h4{
+	background-color:#eeebe8;
+	clear: both;
+	padding: 15px 20px;
+}
+
+h4 img{
+	vertical-align:middle;
+	margin-right: 7px;
+	margin-left: -20px;
+	width: 12px;
+	height: 4px;
+}
+
+h5 span img{
+	clear: both;
+	width: 10px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.block h5{
+	border-bottom: dotted 1px #aaaaaa;
+	padding-bottom: 10px;
+}
+
+
+p{
+	font-size: 13px;
+}
+
+img.drive{
+	width: 450px;
+	height: 250px;
+	padding-top:10px;
+
+}
+
+.block {
+	padding: 5px 20px 20px 20px;
+    background: #ffffff;
+    border: 1px #cccccc solid;
+	width: 450px;
+	
+}
+
+.block_img{
+	margin-bottom: 30px;
+}
+
+.block_img img{
+	margin-left: 10px;
+}
+
+.direction{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rihgt{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+
+
+.btn{
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+
+.drive_button {
+	background-color: #67594e;
+	border: 1px solid #67594e;
+	color: #fff;
+	line-height: 45px;
+	width: 495px;
+	text-align: center;
+}
+.drive_button:hover {
+	background-color:#493F37;
+	border-color: #493F37;
+	color: #FFFFFF;
+}
+
+.enjoy_button {
+	background-color:#cccccc;
+	border: 1px solid #cccccc;
+	color: #fff;
+	line-height: 100px;
+	width: 490px;
+	
+}
+.enjoy_button:hover {
+	background-color:#ACABAB;
+	border-color: #ACABAB;
+}
+	
+span img{
+	color:#f17602;
+	width: 10px;
+	height: 10px;
+}
+
+.content{
+	float: left;
+	width: 220px;
+	margin-bottom: 30px;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+	
+	.block_img{
+		width: 100%;
+}
+	
+.left{
+     float: none;
+}
+.rihgt{
+	float: none;
+}
+
+	img{
+	max-width: 100%;
+	height: auto;
+}
+	
+	h2 img{
+	vertical-align:middle;
+	border: 0;
+	margin-right: 7px;
+	margin-left: -5px;
+	width: 20px;
+	height: 8px;
+	}
+	
+	.block h5{
+	border-bottom: dotted auto #aaaaaa;
+}
+	
+	.block {
+    background: #ffffff;
+    border: auto #cccccc solid;
+	width: 90%;
+	padding: 5%;
+}
+	.block_img{
+		width: 100%;
+		margin-right: 10px;
+}
+
+	img.drive{
+	width: 100%;
+	height:auto;
+	}
+	
+	.btn{
+	color: #fff;
+	line-height: auto;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+		
+	}
+	
+	.drive_button {
+	background-color: #67594e;
+	border: 2px solid #67594e;
+	margin-bottom: 10px;
+}
+    .drive_button:hover {
+	background-color:#493F37;
+	border-color: #493F37;
+	color: #FFFFFF;
+}
+
+
+.enjoy_button {
+	background-color:#cccccc;
+	border: 2px solid #cccccc;
+	
+}
+.enjoy_button:hover {
+	background-color:#ACABAB;
+	border-color: #ACABAB;
+}
+
+	.nav{
+		width: 100%;
+		height: auto;
+	}
+	
+}
+
+
+
+@media (max-width: 999px) and (min-width: 671px){
+	
+	.block_img{
+	width: 100%;
+		height: auto;
+}
+	
+	.btn{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #fff;
+	line-height: auto;
+	max-width: 100%;
+	text-align: center;
+	display: inline-block
+	}
+	
+.left{
+	float: none;
+}
+.rihgt{
+	float: none;
+}
+
+	img{
+	width: 100%;
+	max-height:350px;
+	}
+	
+	
+	h2 img{
+	vertical-align:middle;
+	border: 0;
+	margin-right: 7px;
+	margin-left: -5px;
+	width: 20px;
+	height: 8px;
+	}
+	
+	.block h5{
+	border-bottom: dotted auto #aaaaaa;
+}
+	
+	.block {
+    background: #ffffff;
+    border: auto #cccccc solid;
+	width: 90%;
+	text-align: center;
+	margin-left: 20px;
+}
+}
+
+	img.drive{
+	max-width: 90%;
+	height:auto;
+	}
+	
+	
+	.drive_button {
+	background-color: #67594e;
+	border: auto solid #67594e;
+	margin-bottom: 10px;
+}
+.drive_button:hover {
+	background-color:#493F37;
+	border-color: #493F37;
+	color: #FFFFFF;
+}
+
+
+.enjoy_button {
+	background-color:#cccccc;
+	border: auto solid #cccccc;
+	display: inline-block;
+	
+}
+.enjoy_button:hover {
+	background-color:#ACABAB;
+	border-color: #ACABAB;
+}
+
+	.nav{
+		width: 100%;
+		height: auto;
+	}
+	
+}	
+
+
+
+
+	
+}
+
